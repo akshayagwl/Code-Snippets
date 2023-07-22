@@ -1,0 +1,4 @@
+<aura:component>
+<aura:attribute name=\"attributeName\" type=\"String\" />
+</aura:component>
+"description": "Aura attribute"

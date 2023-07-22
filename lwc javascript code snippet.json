@@ -1,0 +1,78 @@
+console.log('$0')
+"description": "Log output to console"
+
+console.error('There is an error', error)
+"description": "Log error to console"
+
+methodName(event) {
+	"";
+}
+"description": "js class function"
+
+export default class Service {
+	"";
+}
+"description": "export default class"
+
+@wire(methodToWire, { param: '' })
+methodName(result) {
+	const { data, error } = result
+	if (data) {
+
+	}
+	else if(error) {
+		console.log('There is an error', JSON.stringify(error))
+	}
+}
+"description": "Wire method code"
+
+@wire(getRecord, { recordId: '$recordId', fields: FIELDS })
+getRecordHandler(result) {
+	const { data, error } = result
+	if (data) {
+
+	}
+	else if(error) {
+		console.log('There is an error', JSON.stringify(error))
+	}
+}
+"description": "Wire getRecord"
+
+import { getRecord } from 'lightning/uiRecordApi'
+"description": "import get record"
+
+import { createRecord } from 'lightning/uiRecordApi'
+"description": "import create record"
+
+import { updateRecord } from 'lightning/uiRecordApi'
+"description": "import update record"
+
+import { deleteRecord } from 'lightning/uiRecordApi'
+"description": "import delete record"
+
+import methodName from '@salesforce/apex/className.methodName'
+"description": "Import Apex"
+
+import labelName from '@salesforce/label/c.labelName'
+"description": "Import Custom Label"
+
+import RESOURCE_NAME from '@salesforce/resourceUrl/resourceName'
+"description": "Import Static Resource"
+
+import SOBJECT_NAME from '@salesforce/schema/sObjectName'
+"description": "Import Standard Object"
+
+import { ShowToastEvent } from 'lightning/platformShowToastEvent'
+"description": "Import ShowToastEvent"
+
+import { getPicklistValues } from 'lightning/uiObjectInfoApi'
+"description": "Import getPicklistValues"
+
+try {
+""
+} catch(error) {
+console.log('There is an error', JSON.stringify(error))
+} finally {
+	""
+}
+"description": "try catch finally"

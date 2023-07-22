@@ -1,0 +1,62 @@
+public void methodName() {
+}
+"description": "public void method"
+
+public string methodName() {
+			return null;
+			}
+"description": "public string method"
+
+public integer methodName(){
+	return null;
+}
+"description": "public integer method"
+
+public object[] methodName(){
+	return null;
+}
+"description": "public List method"
+
+public Set methodName(){
+	return null;
+}
+"description": "public Set method"
+
+public Map<string, object> methodName(){
+	return null;
+}
+"description": "public Map method"
+
+@AuraEnabled
+public static string methodName() {
+	return null;
+}
+"description": "Creates an Aura enabled method"
+
+@AuraEnabled(cacheable = true)
+public static string methodName() {
+	return null;
+}
+"description": "Creates an Aura enabled method"
+
+@AuraEnabled
+public string propertyName { get; set; }
+"description": "Creates an Aura enabled property"
+
+System.debug('');
+"description": "System debug"
+
+HttpRequest request = new HttpRequest();
+request.setEndpoint(endPointUrl);
+request.setMethod('GET');
+request.setHeader('Authorization', authorizationHeader);
+Http http = new Http();
+HTTPResponse response = http.send(request);
+Integer statusCode = response.getStatusCode();
+if(404 == statusCode) {
+	string responseBody = response.getBody();
+}
+else{
+	System.debug('statusCode '+statusCode);
+}
+"description": "HTTP Request"
